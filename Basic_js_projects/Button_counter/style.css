@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background: rgb(96, 63, 102);
+    font-family: 'calibri';
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: #fff;
+    flex: 0 0 70%;
+    
+}
+
+button {
+    display: block;
+ 
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    color: #eee;
+    background: #6cc3cb;
+    border-radius: 8px;
+    border: none;
+    text-transform: capitalize;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.counter{
+    font-size: 6rem;
+}
