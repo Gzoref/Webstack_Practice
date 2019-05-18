@@ -1,0 +1,23 @@
+{
+  "name": "js_issue_tracker",
+  "version": "1.0.0",
+  "description": "Issue tracker",
+  "main": "main.js",
+  "dependencies": {
+    "chance.js": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gzoref/WebStack-Spring-2019.git"
+  },
+  "author": "gzoref",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gzoref/WebStack-Spring-2019/issues"
+  },
+  "homepage": "https://github.com/Gzoref/WebStack-Spring-2019#readme"
+}

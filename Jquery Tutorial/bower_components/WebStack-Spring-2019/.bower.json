@@ -1,0 +1,14 @@
+{
+  "name": "WebStack-Spring-2019",
+  "homepage": "https://github.com/Gzoref/WebStack-Spring-2019",
+  "_release": "30d65ddfbd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "30d65ddfbd103fc342b04ed5dec5ef3fd19ef429"
+  },
+  "_source": "https://github.com/Gzoref/WebStack-Spring-2019.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/Gzoref/WebStack-Spring-2019.git",
+  "_direct": true
+}

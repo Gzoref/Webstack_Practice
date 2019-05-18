@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  background: rgb(101, 82, 105);
+  font-family: 'calibri';
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+form {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 7px;
+  background-color: #fff;
+  flex: 0 0 60%;
+  box-shadow: 0 0 10px #2d2e2b;
+  padding-bottom: 10%
+}
+
+button {
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  background: #289ba5;
+  border-radius: 8px;
+  border: none;
+  text-transform: capitalize;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 0 0 10px #2d2e2b;
+}
+
+
+input[type=number] {
+  margin: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 1px solid #cc168f;
+  outline: none;
+}
+
+input[type=number]:focus {
+  box-shadow: 0 1px 10px #8a9597;
+}
+
+#operator {
+  font-size: 1.3em;
+  border: 1px solid #cc168f;
+  border-radius: 5px;
+
+}

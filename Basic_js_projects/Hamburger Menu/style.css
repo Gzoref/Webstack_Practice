@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar__header {
+    background: #545454;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.3rem solid #988fa9;
+}
+
+.navbar__header img {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 0, 0, .1);
+ 
+
+}
+
+.navbar__single-link {
+    display: block;
+    background: #69747c;
+    padding: 1.5rem;
+    color: white;
+}
+
+
+.navbar__single-link:hover {
+    padding-left: 1.5rem;
+    color: #545454;
+}
+
+.navbar__links {
+    list-style-type: none;
+    transition: all 2s ease;
+
+}
+
+
+@media (max-width:800px) {
+    .navbar__btn {
+        align-self: center;
+        border: 3px solid #2196f3;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 2px;
+        margin: .5rem;
+        background: #2196f3;
+        transition: all 1s ease;
+    }
+
+
+
+    .navbar__btn:hover {
+        border: 4px solid #2196f3
+    }
+
+
+    .bar1:hover {
+        width: 40px;
+        height: 5px;
+
+    }
+
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        transform: rotate(45deg) translate(-10px, -8px);
+    }
+
+
+    .navbar__links {
+        list-style-type: none;
+        transition: all 2s ease;
+        /* collapses */
+        height: 0;
+        overflow: hidden;
+    }
+
+    .navbar__collapse {
+        height: 240px;
+    }
+
+    .navbar__single-link {
+        display: block;
+        background: #69747c;
+        padding: 1.5rem;
+        color: white;
+    }
+
+
+    .navbar__single-link:hover {
+        padding-left: 1.5rem;
+        color: #545454;
+    }
+}
+
+
+
+header {
+    min-height: calc(100vh - 97px);
+    background: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Diopsis.jpg")center/cover no-repeat;
+}

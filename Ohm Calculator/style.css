@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: cornflowerblue;
+}
+
+.container{
+    padding: 10% 20% 80%;
+   display: inherit;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.input-group {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    background-color: springgreen;
+    border: 2px solid rgb(216, 208, 208);
+}
+
+button:hover{
+    background-color: rgb(156, 124, 177);
+}

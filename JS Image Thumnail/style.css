@@ -1,0 +1,23 @@
+
+ *{
+	 font-family: sans-serif;
+ }
+ 
+ .nav-bar, ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav-bar, ul li{
+	list-style: none;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+img.small {
+display: inline-block;
+width: 100px;
+}

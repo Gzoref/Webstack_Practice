@@ -1,0 +1,19 @@
+{
+  "name": "basic_js_projects",
+  "version": "1.0.0",
+  "description": "basic js apps",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gzoref/WebStack-Spring-2019.git"
+  },
+  "author": "gzoref",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gzoref/WebStack-Spring-2019/issues"
+  },
+  "homepage": "https://github.com/Gzoref/WebStack-Spring-2019#readme"
+}

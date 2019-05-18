@@ -1,0 +1,41 @@
+body{
+ min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(87, 45, 129, 0.431)
+}
+
+.images{
+background: yellow;
+flex: 0 0 80%;
+min-height: 70vh;
+background: url('imgs/img-0.jpeg')center/cover no-repeat;
+position: relative;
+border-radius: 7px;
+box-shadow: 2px 5px rgb(12, 1, 1);
+}
+
+.btn{
+display: inline-block;
+background: #eee;
+color: black;
+border: 3px solid green;
+font-size: 1.5rem;
+border-radius: 20%;
+}
+
+
+.prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, 50%);
+}
